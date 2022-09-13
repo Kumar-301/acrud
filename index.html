@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>CRUD Application</title>
+</head>
+<body>
+ <table>
+     <tr>
+         <td>
+             <form autocomplete="off" onsubmit="event.preventDefault();onformSubmit();">
+                 <div>
+                 <label for="">Name</label> <br>
+                 <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="">Designitaion</label> <br>
+                    <input type="text" name="desigination" id="desigination">
+                   </div>
+                   <div>
+                    <label for="">Salary</label> <br>
+                    <input type="text" name="salary" id="salary">
+                   </div>
+                <div>
+                    <input type="submit" value="submit">
+                    <input type="button" value="cancel">
+                </div>
+             </form>
+         </td>
+         <td>
+             <table class="list" id="employeeList">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Desigination</th>
+                        <th>Salary</th>
+                        <th>Action</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+             </table>
+         </td>
+     </tr>
+ </table> 
+
+
+
+    <script src="index.js"></script>
+    <!-- <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

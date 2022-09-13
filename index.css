@@ -1,0 +1,23 @@
+body >table{
+    width:80%;
+}
+table{
+    border-collapse:collapse;
+}
+table.list{
+    width:100%;
+}
+td,th {
+    border:1px solid pink;
+    text-align:left;
+    padding:8px;
+}
+input[type=text],input[type=number]{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid gray;
+    border-radius:4px;
+    box-sizing:border-box;
+}
